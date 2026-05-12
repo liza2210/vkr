@@ -51,12 +51,6 @@ pip install -e .
 * scapy
 * reportlab
 
-Если на Ubuntu есть проблемы с Qt:
-
-```bash
-sudo apt install libxcb-cursor0 libxkbcommon-x11-0 fonts-noto-core
-```
-
 ## Запуск GUI
 
 ```bash
