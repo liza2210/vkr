@@ -1,0 +1,78 @@
+2026-05-03T16:05:24.467943+03:00 liza-home-pc polkitd[1108]: Registered Authentication Agent for unix-session:c1 (system bus name :1.42 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-05-03T13:15:01.845173+03:00 liza-home-pc CRON[3705]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-03T13:15:01.847780+03:00 liza-home-pc CRON[3705]: pam_unix(cron:session): session closed for user root
+2026-05-03T13:17:01.852710+03:00 liza-home-pc CRON[3711]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-03T13:17:01.862461+03:00 liza-home-pc CRON[3711]: pam_unix(cron:session): session closed for user root
+2026-05-03T13:22:52.607983+03:00 liza-home-pc gdm-password]: gkr-pam: unable to locate daemon control file
+2026-05-03T13:22:52.617564+03:00 liza-home-pc gdm-password]: gkr-pam: stashed password to try later in open session
+2026-05-03T13:22:52.617696+03:00 liza-home-pc gdm-password]: pam_unix(gdm-password:session): session opened for user liza(uid=1000) by liza(uid=0)
+2026-05-03T13:22:52.633417+03:00 liza-home-pc systemd-logind[1144]: New session 4 of user liza.
+2026-05-03T13:22:52.650748+03:00 liza-home-pc (systemd): pam_unix(systemd-user:session): session opened for user liza(uid=1000) by liza(uid=0)
+2026-05-03T13:22:52.956815+03:00 liza-home-pc gnome-keyring-daemon[3874]: keyring was in an invalid or unrecognized format: /home/liza/.local/share/keyrings/default.keyring
+2026-05-03T13:22:52.960832+03:00 liza-home-pc gdm-password]: gkr-pam: unlocked login keyring
+2026-05-03T13:22:55.686573+03:00 liza-home-pc gnome-keyring-daemon[3874]: The Secret Service was already initialized
+2026-05-03T13:22:55.686752+03:00 liza-home-pc gnome-keyring-daemon[4244]: discover_other_daemon: 1
+2026-05-03T13:22:55.689884+03:00 liza-home-pc gnome-keyring-daemon[4247]: discover_other_daemon: 1
+2026-05-03T13:22:55.690030+03:00 liza-home-pc gnome-keyring-daemon[3874]: The PKCS#11 component was already initialized
+2026-05-03T13:22:55.690267+03:00 liza-home-pc gnome-keyring-daemon[4249]: discover_other_daemon: 1
+2026-05-03T13:22:57.238546+03:00 liza-home-pc polkitd[1108]: Registered Authentication Agent for unix-session:4 (system bus name :1.93 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-05-03T13:22:58.247573+03:00 liza-home-pc polkitd[1108]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.42, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-05-03T13:22:58.433074+03:00 liza-home-pc gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-05-03T13:22:58.436826+03:00 liza-home-pc systemd-logind[1144]: Session c1 logged out. Waiting for processes to exit.
+2026-05-03T13:22:58.437803+03:00 liza-home-pc systemd-logind[1144]: Removed session c1.
+2026-05-03T13:22:59.735549+03:00 liza-home-pc PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+2026-05-03T13:22:59.737212+03:00 liza-home-pc PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+2026-05-03T13:23:08.609511+03:00 liza-home-pc (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2026-05-03T13:23:59.149836+03:00 liza-home-pc pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by liza(uid=1000)
+2026-05-03T13:23:59.150424+03:00 liza-home-pc pkexec[7665]: liza: Executing command [USER=root] [TTY=unknown] [CWD=/home/liza] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-05-03T13:23:59.868784+03:00 liza-home-pc PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+2026-05-03T13:23:59.870420+03:00 liza-home-pc PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+2026-05-03T13:24:33.500591+03:00 liza-home-pc PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+2026-05-03T13:24:33.501624+03:00 liza-home-pc PackageKit: message repeated 3 times: [ uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)]
+2026-05-03T13:24:33.502764+03:00 liza-home-pc PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+2026-05-03T13:24:33.506846+03:00 liza-home-pc PackageKit: message repeated 3 times: [ uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh]
+2026-05-03T13:24:35.040313+03:00 liza-home-pc PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+2026-05-03T13:24:35.040399+03:00 liza-home-pc PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+2026-05-03T13:24:35.042233+03:00 liza-home-pc PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+2026-05-03T13:24:35.043479+03:00 liza-home-pc PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+2026-05-03T13:24:50.892182+03:00 liza-home-pc sudo:    liza : TTY=pts/0 ; PWD=/home/liza ; USER=root ; COMMAND=/usr/bin/snap install datagrip --classic
+2026-05-03T13:24:50.892504+03:00 liza-home-pc sudo: pam_unix(sudo:session): session opened for user root(uid=0) by liza(uid=1000)
+2026-05-03T13:25:01.866613+03:00 liza-home-pc CRON[10731]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-03T13:25:01.869204+03:00 liza-home-pc CRON[10731]: pam_unix(cron:session): session closed for user root
+2026-05-03T13:26:21.689191+03:00 liza-home-pc sudo: pam_unix(sudo:session): session closed for user root
+2026-05-03T13:26:58.278553+03:00 liza-home-pc pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by liza(uid=1000)
+2026-05-03T13:26:58.279060+03:00 liza-home-pc pkexec[16119]: liza: Executing command [USER=root] [TTY=unknown] [CWD=/home/liza] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-05-03T13:27:32.331957+03:00 liza-home-pc gnome-keyring-daemon[3874]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2026-05-03T13:35:01.873414+03:00 liza-home-pc CRON[23220]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-03T13:35:01.875996+03:00 liza-home-pc CRON[23220]: pam_unix(cron:session): session closed for user root
+2026-05-03T13:45:01.880239+03:00 liza-home-pc CRON[25624]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-03T13:45:01.882779+03:00 liza-home-pc CRON[25624]: pam_unix(cron:session): session closed for user root
+2026-05-03T13:55:01.887003+03:00 liza-home-pc CRON[30966]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-03T13:55:01.889749+03:00 liza-home-pc CRON[30966]: pam_unix(cron:session): session closed for user root
+2026-05-03T14:00:26.074517+03:00 liza-home-pc gnome-keyring-daemon[3874]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2026-05-03T14:05:01.893916+03:00 liza-home-pc CRON[38961]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-03T14:05:01.898178+03:00 liza-home-pc CRON[38961]: pam_unix(cron:session): session closed for user root
+2026-05-03T14:15:01.900752+03:00 liza-home-pc CRON[39590]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-03T14:15:01.902893+03:00 liza-home-pc CRON[39590]: pam_unix(cron:session): session closed for user root
+2026-05-03T14:17:01.906619+03:00 liza-home-pc CRON[39720]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-03T14:17:01.916108+03:00 liza-home-pc CRON[39720]: pam_unix(cron:session): session closed for user root
+2026-05-03T14:25:01.913616+03:00 liza-home-pc CRON[40634]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-03T14:25:01.915828+03:00 liza-home-pc CRON[40634]: pam_unix(cron:session): session closed for user root
+2026-05-03T14:35:01.920321+03:00 liza-home-pc CRON[42460]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-03T14:35:01.922929+03:00 liza-home-pc CRON[42460]: pam_unix(cron:session): session closed for user root
+2026-05-03T14:45:01.927502+03:00 liza-home-pc CRON[42811]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-03T14:45:01.929632+03:00 liza-home-pc CRON[42811]: pam_unix(cron:session): session closed for user root
+2026-05-03T14:55:01.934053+03:00 liza-home-pc CRON[43149]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-03T14:55:01.936511+03:00 liza-home-pc CRON[43149]: pam_unix(cron:session): session closed for user root
+2026-05-03T15:05:01.940939+03:00 liza-home-pc CRON[43630]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-03T15:05:01.943477+03:00 liza-home-pc CRON[43630]: pam_unix(cron:session): session closed for user root
+2026-05-03T15:15:01.947957+03:00 liza-home-pc CRON[43908]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-03T15:15:01.950539+03:00 liza-home-pc CRON[43908]: pam_unix(cron:session): session closed for user root
+2026-05-03T15:17:01.954170+03:00 liza-home-pc CRON[43981]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-03T15:17:01.963771+03:00 liza-home-pc CRON[43981]: pam_unix(cron:session): session closed for user root
+2026-05-03T15:25:01.961009+03:00 liza-home-pc CRON[44175]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-03T15:25:01.964958+03:00 liza-home-pc CRON[44175]: pam_unix(cron:session): session closed for user root
+2026-05-03T15:29:16.439507+03:00 liza-home-pc gnome-keyring-daemon[3874]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2026-05-03T15:30:11.391075+03:00 liza-home-pc gnome-keyring-daemon[3874]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2026-05-03T15:35:01.967761+03:00 liza-home-pc CRON[47711]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-03T15:35:01.971171+03:00 liza-home-pc CRON[47711]: pam_unix(cron:session): session closed for user root
